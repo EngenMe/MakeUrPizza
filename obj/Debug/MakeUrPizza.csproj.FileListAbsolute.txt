@@ -1,0 +1,10 @@
+C:\Users\moham\source\repos\MakeUrPizza\bin\Debug\MakeUrPizza.exe.config
+C:\Users\moham\source\repos\MakeUrPizza\bin\Debug\MakeUrPizza.exe
+C:\Users\moham\source\repos\MakeUrPizza\bin\Debug\MakeUrPizza.pdb
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.csproj.AssemblyReference.cache
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.Form1.resources
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.Properties.Resources.resources
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.csproj.GenerateResource.cache
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.csproj.CoreCompileInputs.cache
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.exe
+C:\Users\moham\source\repos\MakeUrPizza\obj\Debug\MakeUrPizza.pdb
