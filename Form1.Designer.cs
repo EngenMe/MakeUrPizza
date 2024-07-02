@@ -187,7 +187,7 @@
             this.gbxSize.Location = new System.Drawing.Point(622, 208);
             this.gbxSize.Name = "gbxSize";
             this.gbxSize.Size = new System.Drawing.Size(273, 101);
-            this.gbxSize.TabIndex = 2;
+            this.gbxSize.TabIndex = 7;
             this.gbxSize.TabStop = false;
             this.gbxSize.Text = "Size";
             // 
@@ -197,7 +197,7 @@
             this.rbLarge.Location = new System.Drawing.Point(98, 74);
             this.rbLarge.Name = "rbLarge";
             this.rbLarge.Size = new System.Drawing.Size(73, 24);
-            this.rbLarge.TabIndex = 8;
+            this.rbLarge.TabIndex = 10;
             this.rbLarge.Tag = "40";
             this.rbLarge.Text = "Large";
             this.rbLarge.UseVisualStyleBackColor = true;
@@ -209,7 +209,7 @@
             this.rbSmall.Location = new System.Drawing.Point(98, 20);
             this.rbSmall.Name = "rbSmall";
             this.rbSmall.Size = new System.Drawing.Size(74, 24);
-            this.rbSmall.TabIndex = 6;
+            this.rbSmall.TabIndex = 8;
             this.rbSmall.Tag = "20";
             this.rbSmall.Text = "Small";
             this.rbSmall.UseVisualStyleBackColor = true;
@@ -221,7 +221,7 @@
             this.rbMedium.Location = new System.Drawing.Point(98, 47);
             this.rbMedium.Name = "rbMedium";
             this.rbMedium.Size = new System.Drawing.Size(94, 24);
-            this.rbMedium.TabIndex = 7;
+            this.rbMedium.TabIndex = 9;
             this.rbMedium.Tag = "30";
             this.rbMedium.Text = "Medium";
             this.rbMedium.UseVisualStyleBackColor = true;
@@ -235,7 +235,7 @@
             this.gbxCrustType.Location = new System.Drawing.Point(622, 339);
             this.gbxCrustType.Name = "gbxCrustType";
             this.gbxCrustType.Size = new System.Drawing.Size(273, 100);
-            this.gbxCrustType.TabIndex = 3;
+            this.gbxCrustType.TabIndex = 11;
             this.gbxCrustType.TabStop = false;
             this.gbxCrustType.Text = "Crust Type";
             // 
@@ -245,7 +245,7 @@
             this.rbThin.Location = new System.Drawing.Point(55, 53);
             this.rbThin.Name = "rbThin";
             this.rbThin.Size = new System.Drawing.Size(66, 24);
-            this.rbThin.TabIndex = 6;
+            this.rbThin.TabIndex = 12;
             this.rbThin.Tag = "0";
             this.rbThin.Text = "Thin";
             this.rbThin.UseVisualStyleBackColor = true;
@@ -257,7 +257,7 @@
             this.rbThick.Location = new System.Drawing.Point(166, 53);
             this.rbThick.Name = "rbThick";
             this.rbThick.Size = new System.Drawing.Size(74, 24);
-            this.rbThick.TabIndex = 7;
+            this.rbThick.TabIndex = 13;
             this.rbThick.Tag = "5";
             this.rbThick.Text = "Thick";
             this.rbThick.UseVisualStyleBackColor = true;
@@ -275,7 +275,7 @@
             this.gbxTroppings.Location = new System.Drawing.Point(537, 78);
             this.gbxTroppings.Name = "gbxTroppings";
             this.gbxTroppings.Size = new System.Drawing.Size(346, 100);
-            this.gbxTroppings.TabIndex = 3;
+            this.gbxTroppings.TabIndex = 0;
             this.gbxTroppings.TabStop = false;
             this.gbxTroppings.Text = "Troppings";
             // 
@@ -285,7 +285,7 @@
             this.cbExtraChees.Location = new System.Drawing.Point(70, 24);
             this.cbExtraChees.Name = "cbExtraChees";
             this.cbExtraChees.Size = new System.Drawing.Size(123, 24);
-            this.cbExtraChees.TabIndex = 6;
+            this.cbExtraChees.TabIndex = 1;
             this.cbExtraChees.Tag = "6";
             this.cbExtraChees.Text = "Extra Chees";
             this.cbExtraChees.UseVisualStyleBackColor = true;
@@ -297,7 +297,7 @@
             this.cbMushrooms.Location = new System.Drawing.Point(70, 48);
             this.cbMushrooms.Name = "cbMushrooms";
             this.cbMushrooms.Size = new System.Drawing.Size(125, 24);
-            this.cbMushrooms.TabIndex = 7;
+            this.cbMushrooms.TabIndex = 2;
             this.cbMushrooms.Tag = "5";
             this.cbMushrooms.Text = "Mushrooms";
             this.cbMushrooms.UseVisualStyleBackColor = true;
@@ -309,7 +309,7 @@
             this.cbTomatos.Location = new System.Drawing.Point(70, 72);
             this.cbTomatos.Name = "cbTomatos";
             this.cbTomatos.Size = new System.Drawing.Size(108, 24);
-            this.cbTomatos.TabIndex = 8;
+            this.cbTomatos.TabIndex = 3;
             this.cbTomatos.Tag = "7";
             this.cbTomatos.Text = "Tomatoes";
             this.cbTomatos.UseVisualStyleBackColor = true;
@@ -321,7 +321,7 @@
             this.cbOnion.Location = new System.Drawing.Point(232, 24);
             this.cbOnion.Name = "cbOnion";
             this.cbOnion.Size = new System.Drawing.Size(78, 24);
-            this.cbOnion.TabIndex = 9;
+            this.cbOnion.TabIndex = 4;
             this.cbOnion.Tag = "3.5";
             this.cbOnion.Text = "Onion";
             this.cbOnion.UseVisualStyleBackColor = true;
@@ -333,7 +333,7 @@
             this.cbOlives.Location = new System.Drawing.Point(232, 48);
             this.cbOlives.Name = "cbOlives";
             this.cbOlives.Size = new System.Drawing.Size(80, 24);
-            this.cbOlives.TabIndex = 10;
+            this.cbOlives.TabIndex = 5;
             this.cbOlives.Tag = "2.5";
             this.cbOlives.Text = "Olives";
             this.cbOlives.UseVisualStyleBackColor = true;
@@ -345,7 +345,7 @@
             this.cbPepper.Location = new System.Drawing.Point(232, 72);
             this.cbPepper.Name = "cbPepper";
             this.cbPepper.Size = new System.Drawing.Size(86, 24);
-            this.cbPepper.TabIndex = 11;
+            this.cbPepper.TabIndex = 6;
             this.cbPepper.Tag = "7";
             this.cbPepper.Text = "Pepper";
             this.cbPepper.UseVisualStyleBackColor = true;
@@ -359,7 +359,7 @@
             this.gbxWhereToEat.Location = new System.Drawing.Point(578, 469);
             this.gbxWhereToEat.Name = "gbxWhereToEat";
             this.gbxWhereToEat.Size = new System.Drawing.Size(297, 100);
-            this.gbxWhereToEat.TabIndex = 3;
+            this.gbxWhereToEat.TabIndex = 14;
             this.gbxWhereToEat.TabStop = false;
             this.gbxWhereToEat.Text = "Where To Eat";
             // 
@@ -369,7 +369,7 @@
             this.rbTakeAway.Location = new System.Drawing.Point(148, 53);
             this.rbTakeAway.Name = "rbTakeAway";
             this.rbTakeAway.Size = new System.Drawing.Size(113, 24);
-            this.rbTakeAway.TabIndex = 6;
+            this.rbTakeAway.TabIndex = 16;
             this.rbTakeAway.Tag = "0";
             this.rbTakeAway.Text = "Take Away";
             this.rbTakeAway.UseVisualStyleBackColor = true;
@@ -381,7 +381,7 @@
             this.rbHere.Location = new System.Drawing.Point(20, 53);
             this.rbHere.Name = "rbHere";
             this.rbHere.Size = new System.Drawing.Size(66, 24);
-            this.rbHere.TabIndex = 0;
+            this.rbHere.TabIndex = 15;
             this.rbHere.Tag = "0";
             this.rbHere.Text = "Here";
             this.rbHere.UseVisualStyleBackColor = true;
@@ -396,7 +396,7 @@
             this.btnOrder.Location = new System.Drawing.Point(919, 529);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(109, 36);
-            this.btnOrder.TabIndex = 4;
+            this.btnOrder.TabIndex = 17;
             this.btnOrder.Tag = "0";
             this.btnOrder.Text = "Order Pizza";
             this.btnOrder.UseVisualStyleBackColor = false;
@@ -410,7 +410,7 @@
             this.btnReset.Location = new System.Drawing.Point(1067, 529);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(109, 36);
-            this.btnReset.TabIndex = 5;
+            this.btnReset.TabIndex = 18;
             this.btnReset.Text = "Reset Form";
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
