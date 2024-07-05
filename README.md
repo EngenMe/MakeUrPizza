@@ -3,8 +3,8 @@
 A Windows Forms application for customizing and ordering pizza. Select size, crust type, toppings, and dining option. Real-time price updates and easy order reset/confirmation. Perfect for learning event-driven programming in C# and building user-friendly WinForms interfaces.
 
 <p align="center">
-  <img src="img/mainScreen.png" alt="Before Fill" width="45%" />
-  <img src="img/mainScreen2.png" alt="After Fill" width="45%" />
+  <img src="img/MainScreenBefore.png" alt="Before Fill" width="45%" />
+  <img src="img/MainScreenAfter.png" alt="After Fill" width="45%" />
 </p>
 
 ## Features
