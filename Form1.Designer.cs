@@ -60,11 +60,15 @@
             this.btnOrder = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.gbNumber = new System.Windows.Forms.GroupBox();
+            this.nudNumber = new System.Windows.Forms.NumericUpDown();
             this.gbxSummary.SuspendLayout();
             this.gbxSize.SuspendLayout();
             this.gbxCrustType.SuspendLayout();
             this.gbxTroppings.SuspendLayout();
             this.gbxWhereToEat.SuspendLayout();
+            this.gbNumber.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).BeginInit();
             this.SuspendLayout();
             // 
             // gbxSummary
@@ -358,7 +362,7 @@
             this.gbxWhereToEat.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbxWhereToEat.Location = new System.Drawing.Point(578, 469);
             this.gbxWhereToEat.Name = "gbxWhereToEat";
-            this.gbxWhereToEat.Size = new System.Drawing.Size(297, 100);
+            this.gbxWhereToEat.Size = new System.Drawing.Size(152, 100);
             this.gbxWhereToEat.TabIndex = 14;
             this.gbxWhereToEat.TabStop = false;
             this.gbxWhereToEat.Text = "Where To Eat";
@@ -366,10 +370,10 @@
             // rbTakeAway
             // 
             this.rbTakeAway.AutoSize = true;
-            this.rbTakeAway.Location = new System.Drawing.Point(148, 53);
+            this.rbTakeAway.Location = new System.Drawing.Point(20, 27);
             this.rbTakeAway.Name = "rbTakeAway";
             this.rbTakeAway.Size = new System.Drawing.Size(113, 24);
-            this.rbTakeAway.TabIndex = 16;
+            this.rbTakeAway.TabIndex = 15;
             this.rbTakeAway.Tag = "0";
             this.rbTakeAway.Text = "Take Away";
             this.rbTakeAway.UseVisualStyleBackColor = true;
@@ -381,7 +385,7 @@
             this.rbHere.Location = new System.Drawing.Point(20, 53);
             this.rbHere.Name = "rbHere";
             this.rbHere.Size = new System.Drawing.Size(66, 24);
-            this.rbHere.TabIndex = 15;
+            this.rbHere.TabIndex = 16;
             this.rbHere.Tag = "0";
             this.rbHere.Text = "Here";
             this.rbHere.UseVisualStyleBackColor = true;
@@ -396,7 +400,7 @@
             this.btnOrder.Location = new System.Drawing.Point(919, 529);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(109, 36);
-            this.btnOrder.TabIndex = 17;
+            this.btnOrder.TabIndex = 19;
             this.btnOrder.Tag = "0";
             this.btnOrder.Text = "Order Pizza";
             this.btnOrder.UseVisualStyleBackColor = false;
@@ -410,7 +414,7 @@
             this.btnReset.Location = new System.Drawing.Point(1067, 529);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(109, 36);
-            this.btnReset.TabIndex = 18;
+            this.btnReset.TabIndex = 20;
             this.btnReset.Text = "Reset Form";
             this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
@@ -426,6 +430,35 @@
             this.lblTitle.TabIndex = 6;
             this.lblTitle.Text = "Make Your Pizza";
             // 
+            // gbNumber
+            // 
+            this.gbNumber.Controls.Add(this.nudNumber);
+            this.gbNumber.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gbNumber.Location = new System.Drawing.Point(743, 469);
+            this.gbNumber.Name = "gbNumber";
+            this.gbNumber.Size = new System.Drawing.Size(152, 100);
+            this.gbNumber.TabIndex = 17;
+            this.gbNumber.TabStop = false;
+            this.gbNumber.Text = "Number";
+            // 
+            // nudNumber
+            // 
+            this.nudNumber.Location = new System.Drawing.Point(35, 40);
+            this.nudNumber.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudNumber.Name = "nudNumber";
+            this.nudNumber.Size = new System.Drawing.Size(77, 28);
+            this.nudNumber.TabIndex = 18;
+            this.nudNumber.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudNumber.ValueChanged += new System.EventHandler(this.nudNumber_ValueChanged);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -433,6 +466,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 582);
+            this.Controls.Add(this.gbNumber);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnOrder);
@@ -453,6 +487,8 @@
             this.gbxTroppings.PerformLayout();
             this.gbxWhereToEat.ResumeLayout(false);
             this.gbxWhereToEat.PerformLayout();
+            this.gbNumber.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudNumber)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -490,6 +526,8 @@
         private System.Windows.Forms.Label txtCrustType;
         private System.Windows.Forms.Label txtWhereToEat;
         private System.Windows.Forms.Label txtTotalPrice;
+        private System.Windows.Forms.GroupBox gbNumber;
+        private System.Windows.Forms.NumericUpDown nudNumber;
     }
 }
 

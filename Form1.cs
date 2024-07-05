@@ -84,7 +84,7 @@ namespace MakeUrPizza
         // Method to calculate the total price of the pizza
         float CalculateTotalPrice()
         {
-            return SizePrice() + TroppingsPrice() + CrustPrice();
+            return (SizePrice() + TroppingsPrice() + CrustPrice()) * (short)nudNumber.Value;
         }
 
         // Method to update the total price label
@@ -293,6 +293,11 @@ namespace MakeUrPizza
 
                 ResetToDefault();
             }
+        }
+
+        private void nudNumber_ValueChanged(object sender, EventArgs e)
+        {
+            UpdatePrice();
         }
     }
 }
