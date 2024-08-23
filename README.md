@@ -37,7 +37,7 @@ git clone https://github.com/EngenMe/MakeUrPizza.git
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `License` file for details.
 
 ## Contributing
 
